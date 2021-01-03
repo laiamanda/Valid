@@ -1,0 +1,227 @@
+/*--------------------------About Us and Foundation------------------ */
+.body{
+	background-color: #F7B599;
+}
+.heading{
+	float:left;
+	width:100%;
+}
+/*company's name design */
+.companyname{
+	float:left;
+	color:white;
+	font-family: "Segeo-UI",sans-serif;
+	font-weight:bold;
+	font-style: italic;
+	width:50%;
+}
+.logo{
+	float:right;
+}
+.link1{
+	width:10%;
+	float:right;
+}
+/*This information of pseudo code, below, is based from https://www.w3schools.com/css/css_pseudo_classes.asp */
+a:link{
+	color:white;
+	text-decoration: none ;
+}
+a:visited{
+	color:red;
+	text-decoration: none ;
+}
+a:hover{
+	color:green;
+	text-decoration:underline ;
+}
+a:active{
+	color:#A05F5F;
+	text-decoration:underline ;
+}
+/*For the new release section */
+.new{
+	background-color:#652901;
+	color:#D1AF6D;
+	float:left;
+	text-align:center;
+	width:100%;
+}
+/*For shop Section */
+.shop{
+	background-color:#FB8F8F;
+	color:white;
+	float: left;
+	text-align:center;
+	width:100%;
+}
+/*For Community section */
+.karen{
+	background-color:white;
+	color:#D1AF6D;
+	float:left;
+	text-align:center;
+	width:100%;
+}
+/*Footer Section */
+.footer{
+	width:100%;
+	float:left;
+}
+/*footer for brand name */
+.specftext{
+	float:left;
+	color:white;
+	font-family: "Segeo-UI",sans-serif;
+	font-weight:bold;
+	font-style: italic;
+	width:50%;
+}
+/*link to the contact us page */
+.ftext{
+	float:right;
+	width: 10%;
+}
+/*Based from my assisngment 3 */
+@media screen and (max-width: 900px) {
+  .content0,.content /*These parts will be affected when screen is 900px */ {
+    width:100%; /* The width is 100%, when the viewport is 900 px or smaller */
+	margin: auto;
+	float: left;
+	text-align: center;
+	min-height:20vh;
+  }	
+} 
+/*-----------------Shop-------------------- */
+
+.shop{
+	color:white;
+	float:left;
+}
+/* I did this to separate the images*/
+.rimg{
+	float:right;
+	width:50%;
+	color:white;
+}
+.img{
+	float:left;
+	width:50%;
+	color:white;
+}
+/*allow me to stack each thing on top of each other by 2x2 */
+.app{
+	float:left;
+}
+.textDes{
+	float:left;
+	text-align:right;
+	width:50%;
+}
+.shopIcon{
+	float:right;
+	text-align:left;
+	width:50%;
+}
+.imgStack{
+	float:left;
+	width:100%;
+}
+.belowStack{
+	float:left;
+	width:100%;
+}
+/*-----------------Community-------------------- */
+/*I don't know what happened to any of my classes. It's not loading. */
+.userimg{
+	float:left;
+	width:50%;
+	height:33%;
+}
+.userdes{
+	float:right;
+	width:50%;
+	height:33%;
+}
+.userimg1{
+	float:left;
+	width:50%;
+	height:33%;
+}
+.userdes1{
+	float:right;
+	width:50%;
+	height:33%;
+}
+/*had to separate each section for clarity */
+.section{
+	float:left;
+	width:100%;
+}
+.review{
+	background-color:white;
+}
+/*-----------------About Us-------------------- */
+/*I don't understand why my class isn't working.Like it was working when I didn't put in on the server. Oh well. 
+I'm on the verge of losing my mind.*/
+.title{
+	color:white;
+	text-align:center;
+	float:left;
+	width:100%;
+	background-color: #652901;
+}
+
+.mission{
+	color:white;
+	text-align:center;
+	float:left;
+	width:100%;
+	background-color: #652901;
+}
+.people{
+	width:100%;
+	float:left;
+	color:white;
+}
+/*For the about image*/
+.aboutimg{
+	float:left;
+	width:40%;
+}
+/*For the Description for the about page */
+.aboutdes{
+	float:right;
+	width:60%;
+}
+.vid{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+	float:left;
+	/*width:100%;
+	width="1150";
+	height="750";*/
+}
+/*-----------------Contact Us-------------------- */
+.map{
+	float:left;
+	width:50%;
+}
+.contactinfo{
+	color:white;
+	width:50%;
+	float:left;
+}
+/*change the table style */
+.table{
+	width:50%;
+	border:1px solid black;
+	padding:15px;
+}
+/*Contact page to float left and centering the contexts */
+.contactbody{
+	text-align:center;
+	float:left;
+}
